@@ -1,16 +1,6 @@
 import requests
 import json
 
-# APIS
-# APIs are application programming interfaces. 
-# we use them to store and fetch data between clients and servers, statelessly.
-
-# ROUTING
-# routing means matching URL + HTTP methods to functions.
-
-# so when someone says /ice-cream with method POST, 
-# we call a def, create_ice_cream
-
 def main():
 
     # get input for date
