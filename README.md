@@ -13,7 +13,7 @@
 > - date (enter year, month, and day) <br>
 
 **Potential next improvements**
-<details>
+<details="see below">
   Implementing a DAO instead of using function defintions (methods) would be more architecturally sound. <br>
   Also, using objects rather than simple lists would improve readability. <br>
   Finally, many of the parsing and fetching of intitial data coudld benefit from seperation (different classes / files.) <br>
