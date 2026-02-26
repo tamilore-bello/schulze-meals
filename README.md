@@ -22,7 +22,8 @@
 **However, this project was meant to be an introductury activity so I can become more familiar with REST APIs.**
 <br><br>
 <br>
-**Further improvement plan, if I ever return to this project:**
+
+## **Further improvement plan, if I ever return to this project:**
 <br>Identify key entities: Meal, Station, Item, Attribute, Hall, Hours, Event. <br> 
 Map relationships (e.g., a Meal has multiple Stations, a Station has multiple Items).<br>
 Design a data model based on the above <br>
