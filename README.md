@@ -23,7 +23,7 @@
 <br><br>
 <br>
 
-## **Further improvement plan, if I ever return to this project:**
+## **Future plan, on return:**
 <br>Identify key entities: Meal, Station, Item, Attribute, Hall, Hours, Event. <br> 
 Map relationships (e.g., a Meal has multiple Stations, a Station has multiple Items).<br>
 Design a data model based on the above <br>
