@@ -27,20 +27,20 @@ Map relationships (e.g., a Meal has multiple Stations, a Station has multiple It
 Design a data model based on the above <br>
 
 **Possibly?? Include relationships and relevant fields (allergens, macros, availability, dates).**
-Build backend architecture
+<br> Build backend architecture
 
 **have functions or services that call the API and populate your models.**
-Optional persistence: save parsed data to JSON, CSV, or a database.
+<br>Optional persistence: save parsed data to JSON, CSV, or a database.
 
 **Implement business logic**
-Filters: by meal period, favorites.
-Aggregations: daily menus, totals for macros.
-Event-based logic: notifications when meals are available or halls are closing.
+<br>Filters: by meal period, favorites.
+Aggregations: daily menus, totals for macros.<br>
+Event-based logic: notifications when meals are available or halls are closing.<br>
 Anything derived: favorites tracking, meal suggestions, or alerts.
 
 **Deliverable**
-A backend system that can:
-Query the API or cached data
-Produce structured, usable objects (Meal → Station → Item → Attributes)
-Perform operations and queries on that data efficiently
+<br>A backend system that can:
+Query the API or cached data<br>
+Produce structured, usable objects (Meal → Station → Item → Attributes)<br>
+Perform operations and queries on that data efficiently<br>
 Provide relevant updates for users.
