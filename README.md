@@ -4,25 +4,25 @@
 > Raw data: 1k+ lines of nested JSON from the dining API (menus, stations, items, attributes, hours, events).
 
 2. Goals
-> Parse and understand the nested JSON <br>
-> Identify key entities: Meal, Station, Item <br>
+> - Parse and understand the nested JSON <br>
+> - Identify key entities: Meal, Station, Item <br>
 
-** There's certainly room to expand this project! ** Right now, it will fetch the menu based on user input of:  
+3. Behavior
+> - fetch the menu based on user input of:  
 > - period (breakfast, lunch, dinner) <br>
 > - date (enter year, month, and day) <br>
 
 **Potential next improvements**
 <details>
-> - Implementing a DAO instead of using function defintions (methods) would be more architecturally sound. <br>
-> - Also, using objects rather than simple lists would improve readability. <br>
-> - Finally, many of the parsing and fetching of intitial data coudld benefit from seperation (different classes / files.) <br>
-> - Some parameters are hardcoded, this can be optimized as well.  <br>
-</details>details>
+  Implementing a DAO instead of using function defintions (methods) would be more architecturally sound. <br>
+  Also, using objects rather than simple lists would improve readability. <br>
+  Finally, many of the parsing and fetching of intitial data coudld benefit from seperation (different classes / files.) <br>
+  Some parameters are hardcoded, this can be optimized as well.  <br>
+</details>
 
 However, this project was meant to be an introductury activity so I can become more familiar with REST APIs.
 
-<br><br>
-> **Further improvement plan, if I ever return to this project:**
+<br>**Further improvement plan, if I ever return to this project:**
 <details>
 Identify key entities: Meal, Station, Item, Attribute, Hall, Hours, Event. <br> 
 Map relationships (e.g., a Meal has multiple Stations, a Station has multiple Items).<br>
