@@ -11,12 +11,13 @@
 > - fetch the menu based on user input of:  
 > - period (breakfast, lunch, dinner) <br>
 > - date (enter year, month, and day) <br>
-<br><br>
+<br>
+
 **Potential next improvements**
-  Implementing a DAO instead of using function defintions (methods) would be more architecturally sound. <br>
-  Also, using objects rather than simple lists would improve readability. <br>
-  Finally, many of the parsing and fetching of intitial data coudld benefit from seperation (different classes / files.) <br>
-  Some parameters are hardcoded, this can be optimized as well.  <br>
+Implementing a DAO instead of using function defintions (methods) would be more architecturally sound. <br>
+Also, using objects rather than simple lists would improve readability. <br>
+Finally, many of the parsing and fetching of intitial data coudld benefit from seperation (different classes / files.) <br>
+Some parameters are hardcoded, this can be optimized as well.  <br>
 
 However, this project was meant to be an introductury activity so I can become more familiar with REST APIs.
 <br><br>
