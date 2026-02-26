@@ -24,21 +24,21 @@
 <br>
 
 ## **Future plan, on return:**
-Identify key entities: Meal, Station, Item, Attribute, Hall, Hours, Event. <br> 
-Map relationships (e.g., a Meal has multiple Stations, a Station has multiple Items).<br>
-Design a data model based on the above <br>
+> - Identify key entities: Meal, Station, Item, Attribute, Hall, Hours, Event. <br> 
+> - Map relationships (e.g., a Meal has multiple Stations, a Station has multiple Items).<br>
+> - Design a data model based on the above <br>
 
 **Possibly?? Include relationships and relevant fields (allergens, macros, availability, dates).**
-<br> Build backend architecture
+> - Build backend architecture
 
 **have functions or services that call the API and populate your models.**
-<br>Optional persistence: save parsed data to JSON, CSV, or a database.
+> - Optional persistence: save parsed data to JSON, CSV, or a database. 
 
 **Implement business logic**
-<br>Filters: by meal period, favorites.
-Aggregations: daily menus, totals for macros.<br>
-Event-based logic: notifications when meals are available or halls are closing.<br>
-Anything derived: favorites tracking, meal suggestions, or alerts.
+> - Filters: by meal period, favorites. <br>
+> - Aggregations: daily menus, totals for macros.<br>
+> - Event-based logic: notifications when meals are available or halls are closing.<br>
+> - Anything derived: favorites tracking, meal suggestions, or alerts.
 
 **Deliverable**
 <br>A backend system that can:
