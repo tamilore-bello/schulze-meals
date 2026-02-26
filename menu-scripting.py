@@ -200,25 +200,13 @@ def getDailyItems(cafFoodInfo):
 # 10 = breakfast
 # 4/13 = all day
 # 16 = dinner
-# lunch = 25
- 
+# 25 = lunch
 
-
-# breakfast = 40 (actually 10 tho)
-# lunch = 90
-# dinner = 16
 # brunch = 70
-# all day = 4
-
-# morning snack = 28
-# afternoon snack = 1
-# limited dinner = 53
-# evening snack = 22
-# overnight = 31
 main()
 
 
-# IDEAS
+# IDEAS for expansion
 # get date, meal for day obs
 # get allergens
 # pings for when the hall closes and opens
@@ -227,50 +215,4 @@ main()
 # pings for when they are serving favorited meals
 # macro tracking
 
-# parse the response into a model, 
-# fr example for meals, dates, and have methods that execute queries for certain information.
-"""
-MAPPING
 
-cafeteria has stations
-stations have ids, meals
-meals have ids, ames, SKUS
-
-"""
- 
-
-
-""" 
-
-TASKS:
-1. Input
-Raw data: 1k+ lines of nested JSON from the dining API (menus, stations, items, attributes, hours, events).
-
-2. Goals
-Parse and understand the nested JSON
-Identify key entities: Meal, Station, Item, Attribute, Hall, Hours, Event.
-Map relationships (e.g., a Meal has multiple Stations, a Station has multiple Items).
-Design a data model
-
-Create Python classes or ORM models representing the entities.
-Include relationships and relevant fields (allergens, macros, availability, dates).
-Build backend architecture
-
-Functions or services that call the API and populate your models.
-Maintain a clean separation: API layer → Data layer → Business logic layer.
-Optional persistence: save parsed data to JSON, CSV, or a database.
-
-Implement business logic
-Filters: by allergens, macros, meal period, favorites.
-Aggregations: daily menus, totals for macros.
-Event-based logic: notifications when meals are available or halls are closing.
-Anything derived: favorites tracking, meal suggestions, or alerts.
-
-3. Deliverable
-A backend system that can:
-Accept parameters (date, meal period, hall)
-Query the API or cached data
-Produce structured, usable objects (Meal → Station → Item → Attributes)
-Perform operations and queries on that data efficiently
-
-"""
