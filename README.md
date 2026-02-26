@@ -42,7 +42,7 @@
 
 **Deliverable**
 <br>A backend system that can:
-Query the API or cached data<br>
+Query the API or cached data.<br>
 Produce structured, usable objects (Meal → Station → Item → Attributes)<br>
-Perform operations and queries on that data efficiently<br>
+Perform operations and queries on that data efficiently.<br>
 Provide relevant updates for users.
