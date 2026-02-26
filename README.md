@@ -11,19 +11,16 @@
 > - fetch the menu based on user input of:  
 > - period (breakfast, lunch, dinner) <br>
 > - date (enter year, month, and day) <br>
-
+<br>
 **Potential next improvements**
-<details="see below">
   Implementing a DAO instead of using function defintions (methods) would be more architecturally sound. <br>
   Also, using objects rather than simple lists would improve readability. <br>
   Finally, many of the parsing and fetching of intitial data coudld benefit from seperation (different classes / files.) <br>
   Some parameters are hardcoded, this can be optimized as well.  <br>
-</details>
 
 However, this project was meant to be an introductury activity so I can become more familiar with REST APIs.
-
+<br><br>
 <br>**Further improvement plan, if I ever return to this project:**
-<details>
 Identify key entities: Meal, Station, Item, Attribute, Hall, Hours, Event. <br> 
 Map relationships (e.g., a Meal has multiple Stations, a Station has multiple Items).<br>
 Design a data model based on the above <br>
@@ -46,4 +43,3 @@ Query the API or cached data
 Produce structured, usable objects (Meal → Station → Item → Attributes)
 Perform operations and queries on that data efficiently
 Provide relevant updates for users.
-</details>
