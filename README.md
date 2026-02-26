@@ -1,4 +1,4 @@
-** Initial test practicing using RESTful APIs. **
+**Initial test practicing using RESTful APIs.**
 
 1. Input
 > Raw data: 1k+ lines of nested JSON from the dining API (menus, stations, items, attributes, hours, events).
@@ -11,7 +11,7 @@
 > - period (breakfast, lunch, dinner) <br>
 > - date (enter year, month, and day) <br>
 
-** Potential next improvements **
+**Potential next improvements**
 <details>
 > - Implementing a DAO instead of using function defintions (methods) would be more architecturally sound. <br>
 > - Also, using objects rather than simple lists would improve readability. <br>
@@ -22,7 +22,7 @@
 However, this project was meant to be an introductury activity so I can become more familiar with REST APIs.
 
 <br><br>
-> ** Further improvement plan, if I ever return to this project: **
+> **Further improvement plan, if I ever return to this project:**
 <details>
 Identify key entities: Meal, Station, Item, Attribute, Hall, Hours, Event. <br> 
 Map relationships (e.g., a Meal has multiple Stations, a Station has multiple Items).<br>
