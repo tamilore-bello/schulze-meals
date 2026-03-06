@@ -1,4 +1,4 @@
-# **Initial test practicing using RESTful APIs.**
+# **Initial test practicing using RESTful / GraphQL APIs.**
 
 1. Input
 > Raw data: 1k+ lines of nested JSON from the dining API (menus, stations, items, attributes, hours, events).
@@ -19,7 +19,7 @@
 > - Finally, many of the parsing and fetching of intitial data coudld benefit from seperation (different classes / files.) <br>
 > - Some parameters are hardcoded, this can be optimized as well.  <br>
 
-**However, this project was meant to be an introductury activity so I can become more familiar with REST APIs.**
+**However, this project was meant to be an introductury activity so I can become more familiar with REST / GraphQL APIs.**
 <br><br>
 <br>
 
